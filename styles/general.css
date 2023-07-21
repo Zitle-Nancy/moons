@@ -24,6 +24,10 @@
   margin-bottom: 8px;
 }
 
+.ml-2 {
+  margin-left: 16px;
+}
+
 .my-2 {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -31,6 +35,15 @@
 
 .p-3 {
   padding: 24px;
+}
+
+.px-3 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.pr-6 {
+  padding-right: 48px;
 }
 
 .text-center {

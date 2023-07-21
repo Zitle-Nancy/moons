@@ -1,10 +1,15 @@
-
-@import "./general.css"; 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,800&display=swap');
+@import url("./general.css");
 
 body {
   margin: 0;
   padding: 24px;
   box-sizing: content-box;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
 }
 
 .container {
@@ -20,9 +25,13 @@ body {
   border-bottom: solid white 1.5px;
 }
 
+.header-details p {
+font-family: 'Work Sans', sans-serif;
+font-size: 12px;
+}
+
 .brackets-details {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -32,7 +41,15 @@ body {
   width: 20%;
   align-items: center;
   justify-content: center;
-  height: fit-content;
+  height: auto;
+}
+
+.bracket-numbers p {
+font-family: 'Work Sans', sans-serif;
+font-size: 35px;
+font-weight: bold;
+margin: 0;
+color: #F59986;
 }
 
 .qr-code {
@@ -46,9 +63,32 @@ body {
   height: 120px;
 }
 
+.qr-code p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 7px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.information p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 8px;
+}
+
+.text-details p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
 footer {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
   padding: 8px 8px 8px 24px;
+}
+
+footer p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 8px;
 }
