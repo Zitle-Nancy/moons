@@ -1,0 +1,54 @@
+
+@import "./general.css"; 
+
+body {
+  margin: 0;
+  padding: 24px;
+  box-sizing: content-box;
+}
+
+.container {
+  width: 350px;
+  height: auto;
+}
+
+.details {
+  background-color: #feceb1;
+}
+
+.header-details {
+  border-bottom: solid white 1.5px;
+}
+
+.brackets-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bracket-numbers {
+  background: white;
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.qr-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: min-content;
+}
+
+.qr-code img {
+  height: 120px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 8px 8px 8px 24px;
+}
