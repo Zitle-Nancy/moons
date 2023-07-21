@@ -1,15 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,800&family=Inter&display=swap");
 @import url("./general.css");
 
 body {
   margin: 0;
   padding: 24px;
   box-sizing: content-box;
-}
-
-h3 {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 12px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .container {
@@ -25,11 +21,6 @@ h3 {
   border-bottom: solid white 1.5px;
 }
 
-.header-details p {
-font-family: 'Work Sans', sans-serif;
-font-size: 12px;
-}
-
 .brackets-details {
   display: flex;
   align-items: center;
@@ -38,18 +29,16 @@ font-size: 12px;
 .bracket-numbers {
   background: white;
   display: flex;
-  width: 20%;
   align-items: center;
   justify-content: center;
   height: auto;
+  width: 20%;
 }
 
-.bracket-numbers p {
-font-family: 'Work Sans', sans-serif;
-font-size: 35px;
-font-weight: bold;
-margin: 0;
-color: #F59986;
+.number {
+  font-size: 35px;
+  font-weight: bold;
+  color: #f59986;
 }
 
 .qr-code {
@@ -60,35 +49,12 @@ color: #F59986;
 }
 
 .qr-code img {
-  height: 120px;
-}
-
-.qr-code p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 7px;
-  font-weight: lighter;
-  text-align: center;
-}
-
-.information p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 8px;
-}
-
-.text-details p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 12px;
-  margin: 0;
+  height: 80px;
 }
 
 footer {
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 8px 8px 8px 24px;
-}
-
-footer p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 8px;
 }
