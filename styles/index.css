@@ -1,10 +1,11 @@
-
-@import "./general.css"; 
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,800&family=Inter&display=swap");
+@import url("./general.css");
 
 body {
   margin: 0;
   padding: 24px;
   box-sizing: content-box;
+  font-family: "Work Sans", sans-serif;
 }
 
 .container {
@@ -22,17 +23,22 @@ body {
 
 .brackets-details {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .bracket-numbers {
   background: white;
   display: flex;
-  width: 20%;
   align-items: center;
   justify-content: center;
-  height: fit-content;
+  height: auto;
+  width: 20%;
+}
+
+.number {
+  font-size: 35px;
+  font-weight: bold;
+  color: #f59986;
 }
 
 .qr-code {
@@ -43,12 +49,12 @@ body {
 }
 
 .qr-code img {
-  height: 120px;
+  height: 80px;
 }
 
 footer {
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 8px 8px 8px 24px;
 }
