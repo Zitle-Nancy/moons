@@ -1,3 +1,4 @@
+/* Margin */
 .m-0 {
   margin: 0;
 }
@@ -33,19 +34,48 @@
   margin-bottom: 16px;
 }
 
+/* Padding */
 .p-3 {
   padding: 24px;
 }
 
-.px-3 {
-  padding-left: 24px;
-  padding-right: 24px;
+.px-1 {
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .pr-6 {
   padding-right: 48px;
 }
 
+.pt-2 {
+  padding-top: 16px;
+}
+
+/* Align text */
 .text-center {
   text-align: center;
+}
+
+/* Font size */
+.text-xxs {
+  font-size: 7px;
+}
+
+.text-xs {
+  font-size: 8px;
+}
+
+.text-sm {
+  font-size: 11px;
+}
+
+/* Font family */
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* Line height*/
+.leading-loose {
+  line-height: 2;
 }
